@@ -1,0 +1,48 @@
+public class Homework62 {
+    public static void main(String[] args) {
+        boolean isWeekend = true;
+        boolean isRain = false;
+        boolean canWalk = isWeekend && !isRain;
+        System.out.println("Я могу гулять: " + canWalk);
+
+    }
+}
+
+"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\lib\idea_rt.jar=53640:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\milao\IdeaProjects\Java\Homework6\out\production\Homework6 Homework62
+Я могу гулять: true
+
+Process finished with exit code 0
+
+
+1.public class Homework63 {
+    public static void main(String[] args) {
+        boolean isEdekaOpen = true;
+        boolean isReweOpen = false;
+        boolean canBuy = isEdekaOpen || isReweOpen;
+        System.out.println("Я могу купить еду: " + canBuy);
+
+
+    }
+}
+"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\lib\idea_rt.jar=53649:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\milao\IdeaProjects\Java\Homework6\out\production\Homework6 Homework63
+Я могу купить еду: true
+
+Process finished with exit code 0
+
+
+2.
+public class Homework64 {
+    public static void main(String[] args) {
+
+        double temperature1 = 120.5;
+        double temperature2 = 90.2;
+        boolean isDeviceWorking = temperature1 > 100 && temperature2 < 100;
+        System.out.println("Устройство работает: " + isDeviceWorking);
+
+    }
+}
+"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\lib\idea_rt.jar=53651:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\milao\IdeaProjects\Java\Homework6\out\production\Homework6 Homework64
+Устройство работает: true
+
+Process finished with exit code 0
+
